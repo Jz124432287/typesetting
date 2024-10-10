@@ -1,0 +1,94 @@
+/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+  font-size: 0.625rem;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  font-size:1.6rem;
+  font-weight:400;
+  line-height: 1.5;
+  padding:0;
+  letter-spacing: 0.05rem;
+}
+
+p{
+  text-indent:1.5rem;
+}
+
+header,footer{
+  font-family: "Inter", sans-serif;
+  font-size:2.0rem;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+
+a{
+  color:brown;
+  background-image: url('external-link-52.png');
+  background-position: right; 
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 15px;
+}
+
+a:visted{
+  color:brown;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:focus{
+  outline:none;
+  text-decoration: none;
+}
