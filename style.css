@@ -62,7 +62,7 @@ p{
   text-indent:1.5rem;
 }
 
-header,footer{
+header{
   font-family: "Inter", sans-serif;
   font-size:2.0rem;
   text-align: center;
@@ -71,13 +71,6 @@ header,footer{
 
 a{
   color:brown;
-  background-image: url('external-link-52.png');
-  background-position: right; 
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  vertical-align: middle;
-  position: relative;
-  padding-right: 15px;
 }
 
 a:visted{
@@ -91,4 +84,34 @@ a:hover{
 a:focus{
   outline:none;
   text-decoration: none;
+}
+
+p a{
+  background-image: url('external-link-52.png');
+  background-position: right; 
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 15px;
+}
+
+nav a {
+  display: block;
+  color: rgb(76, 0, 92); 
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid rgb(41, 41, 41);
+  margin-bottom: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: rgb(105, 5, 5);
+  color: white;
+}
+
+nav ul{
+  list-style-type: none;
 }
